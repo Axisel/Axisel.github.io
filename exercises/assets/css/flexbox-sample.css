@@ -1,6 +1,6 @@
 section > * { margin-left: 0 }
 
-.bono, .edge, .adam, .larry {
+.flexbox {
     padding: 20px;
     flex-basis: 22%;
     display: flex;
@@ -17,18 +17,18 @@ section > * { margin-left: 0 }
 }
 
 /* Headings */
-.bono h3, .edge h3, .adam h3, .larry h3 {
+.flexbox h3 {
     font-size: var(--font-size-md);
 	line-height: 1.2;
     margin-bottom: 2px;
 }
 
 /* Paragraphs of text */
-.bono p, .edge p, .adam p, .larry p {
+.flexbox p {
     flex-grow: 1;
 }
 
-.bono img, .edge img,.adam img, .larry img {
+.flexbox img {
     margin-bottom: 16px;
     margin-left: -20px;
     margin-right: -20px;
@@ -36,20 +36,16 @@ section > * { margin-left: 0 }
     width: calc(100% + 40px);
 }
 
-.bono { background-color: #4081ec }
-.edge { background-color: #ffbb33 }
-.adam { background-color: #f73345 }
-.larry { background-color: #e0e0e0 }
+.flexbox { background-color: #4081ec }
 
-.bono h3, .bono p,
-.adam h3, .adam p { color: #fff }
 
-.edge h3, .edge p { color: #000 }
-.larry h3, .larry p { color: #000 }
+.flexbox p { color: #fff }
+
+.flexbox h3, .flexbox p { color: #000 }
 
 /* === COLUMN WIDTH ON MOBILES === */
 @media (max-width: 767px) {
-    .bono, .edge, .adam, .larry {
+    .flexbox {
       width: 100%;
     }
     .container-flexbox {

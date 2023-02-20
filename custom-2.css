@@ -1,0 +1,15 @@
+header.theme-dark { background-color: var(--red-500);}
+figure { width: 100%;
+         height: 100%;
+}
+
+.section-selector-1 { background-color: var(--lime-300) }
+
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-600) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-600) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-500) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--red-500) }
