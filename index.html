@@ -21,6 +21,8 @@
     <!-- Line Awesome thin icons. Delete if not using. -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+
 </head>
 
 
@@ -43,7 +45,7 @@
 				<li><a href="#">About</a></li>
 				<li><a href="#">Products</a></li>
 				<li><a href="#">Services</a></li>
-				<li><a class="btn btn-solid" id="btn-cta" href="#"><span>Sign in</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+				<li><a class="btn btn-solid" id="btn-cta" href="contact/index.html"><span>Get in touch</span> <i class="fa-solid fa-chevron-right"></i></a></li>
 			</ul>
 		</div></div></nav>
 	
@@ -51,6 +53,7 @@
    	<!-- header starts here -->
 
        <header class="theme-dark cols-2-half text-center-mobile">
+		
 
         <div class="col-2 col-text">
 			<div class="badge">Data Engineer</div>
@@ -59,16 +62,23 @@
             <h2>I am an innovative front-end developer who loves to build human-friendly interfaces. The guy on the right is <a href="https://mrghastien.github.io/">Bastien MORINO</a> you should see his website, it's amazing.</h2>
 
         	<div class="container-btn">
-                <a href="complete-portfolio.html" class="btn btn-solid"><span>View my portfolio</span><i class="fas fa-shopping-cart"></i></a><a href="#" class="btn btn-outline"><span>Get in touch</span><i class="fas fa-arrow-right"></i></a>
+				<a href="complete-portfolio.html" class="btn btn-solid"><span>View my portfolio</span><i class="fas fa-shopping-cart"></i></a>
+                <button class="learn-more">
+					<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+					</span>
+					<span class="button-text"><a style="text-decoration: none; color: inherit;" href="https://www.linkedin.com/in/alexis-cognet-698227232/">my Linkedin</a></span>
+				  </button>
             </div>
+			
+			
 
         </div>
-
-        <div class="col-2 col-visual">
-            <figure>
-                <img src="assets/img/20230214_120644-removebg-preview.png" alt="Placeholder image">
-            </figure>
-        </div>
+		<div class="col-2 col-visual img-circle">
+			<figure>
+				<img style="width: 70%; height: 90%;"src="assets/img/1648906886486-removebg-preview.png" alt="Placeholder image">
+			</figure>
+		</div>
 
     </header>
 
@@ -82,7 +92,7 @@
 
 	<!-- section starts here -->
 
-	<section class="theme-light section-selector-1">
+	<section class="theme-light section-selector-2">
 
 		<div class="col-1 text-center w-820px">
 			<h2>Recent projects</h2>
@@ -98,7 +108,7 @@
 				</figure>
 				<h3>Snazzy Fashion</h3>
 				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-				<a href="#" class="btn btn-outline btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/fashion/index.html" class="btn btn-outline btn-pill"><span>Check it out !</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -107,7 +117,7 @@
 				</figure>
 				<h3>Hero Block Gallery</h3>
 				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
-				<a href="#" class="btn btn-outline btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project-hero/index.html" class="btn btn-outline btn-pill"><span>Check it out !</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -116,7 +126,7 @@
 				</figure>
 				<h3>Multi-column Layouts</h3>
 				<p>A gallery of multi-column, reponsive layouts.</p>
-				<a href="#" class="btn btn-outline btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project-multi-column/index.html" class="btn btn-outline btn-pill"><span>Check it out !</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 
@@ -128,18 +138,38 @@
 	<!-- section ends here -->
 
 
-        <section></section>
+        
+
+    <section class="section-selector-1 cols-2-half desktop-min-height-90vh theme-light">
+
+        <div class="col-2 col-text">
+            <h2 class="">Yggdrasil Defender</h2>
+            <p>Yggdrasil Defender is a 2D tower defense / platform game that I made with 3 friend over my second semester. This game was made on unity using C#.</p>
+
+            
+			<p>In this game you have two phases, in each level you will have to do an exploration phase or you will simply move through the level with monsters trying to stop you. Then, you will do a tower defense phase, you will have to use your weapons and turrets to defend an objective from waves of monsters.</p>
+		
+        
+			<div class="container-btn">
+				<a href="https://yggdrasildefenders.000webhostapp.com/" class="btn btn-outline btn-soft"><span>Check out the website of the game !</span></a>
+			</div>
+		</div>
+
+        <div class="col-2 col-visual">
+            <figure class="fig-corners-soft">
+                <img src="assets/img/yggdrasil.PNG" alt="Placeholder image">
+            </figure>
+        </div>
+
+    </section>
+
+
         <section></section>
         <section></section>
         <section></section>
         <section></section>
 
     </main>
-
-    <!-- footer -->
-    <footer></footer>
-
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
 </body>
 </html>
