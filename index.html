@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="custom-2.css" />
 
 	<!-- Google Fonts -->
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -27,75 +29,129 @@
 
 
 <body>
-	<nav class="theme-light"><div class="container-menu">
+	
+
+    <nav class="theme-light"><div class="container-menu">
 		<a href="#" class="brand">
-			<img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
-		</a>
-	
+			<img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo"></a>
+		
 		<div class="container-menu-links">
-	
-			<div class="nav-toggle" id="nav-toggle-btn">
-				<div class="bar-1"></div>
-				<div class="bar-2"></div>
-				<div class="bar-3"></div>
-			</div>
-	
-			<ul class="links-wrapper">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a class="btn btn-solid" id="btn-cta" href="contact/index.html"><span>Get in touch</span> <i class="fa-solid fa-chevron-right"></i></a></li>
-			</ul>
-		</div></div></nav>
-	
-
-   	<!-- header starts here -->
-
-       <header class="theme-dark cols-2-half text-center-mobile">
+		
+		<div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
+		
+		<ul class="links-wrapper">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="complete-portfolio.html">Portfolio</a></li>
+		<li><a class="btn btn-solid" id="btn-cta" href="contact/index.html"><span>Get in touch</span> <i class="fa-regular fa-envelope"></i></a></li>
+		</ul>
+		</div>
+		</div></nav>
+		
 		
 
-        <div class="col-2 col-text">
-			<div class="badge">Data Engineer</div>
-			
-            <h1>Alexis COGNET</h1>
-            <h2>I am an innovative front-end developer who loves to build human-friendly interfaces. The guy on the right is <a href="https://mrghastien.github.io/">Bastien MORINO</a> you should see his website, it's amazing.</h2>
+		
 
-        	<div class="container-btn">
-				<a href="complete-portfolio.html" class="btn btn-solid"><span>View my portfolio</span><i class="fas fa-shopping-cart"></i></a>
-                <button class="learn-more">
+		<header class="theme-dark hero-bg text-center-mobile desktop-min-height-80vh">
+
+			<div class="container-text">
+				<div class="badge">IT Student</div>
+				<h1 class="text-shadow">Alexis Cognet</h1>
+				<h2 class="text-shadow">Hi, im Alexis Cognet I'm a IT student who is currently studying web design.</h2>
+			</div>
+	
+			<div class="container-btn">
+				<a href="#" class="btn btn-outline btn-soft"><span>Order Now</span><i class="fas fa-shopping-cart"></i></a>
+				<button class="learn-more">
 					<span class="circle" aria-hidden="true">
 					<span class="icon arrow"></span>
 					</span>
-					<span class="button-text"><a style="text-decoration: none; color: inherit;" href="https://www.linkedin.com/in/alexis-cognet-698227232/">my Linkedin</a></span>
+					<span class="button-text">Learn More</span>
 				  </button>
-            </div>
-			
-			
-
-        </div>
-		<div class="col-2 col-visual img-circle">
-			<figure>
-				<img style="width: 70%; height: 90%;"src="assets/img/1648906886486-removebg-preview.png" alt="Placeholder image">
-			</figure>
-		</div>
-
-    </header>
-
-
-	<!-- header ends here -->
-
-
+			</div>
+	
+			<div class="container-media">
+				<video loop="" playsinline="" muted="" autoplay="" poster="https://lunevedy.com/ui/assets/img/1920x800-center.jpg" class="background-video" disablepictureinpicture="" preload="auto"><source src="assets/video/Free trendy Topography_ Animated background _ Free Stock video _ Copyright Free _ 4K _ Royalty-Free.mp4" type="video/mp4"></video></div>
+	
+			<div class="container-overlay"></div>
+	
+		</header>
+	
+	
+	
+	
 
     <!-- main content with sections -->
     <main>
 
 	<!-- section starts here -->
+	<section style="background-color: #25262a;" class="stack">
+        <main>
+          <header style="padding: 0%;">
+            <h2 class="h2-tg">Tools I work with:</h2>
+          </header>
+
+          <ul class="stack__list">
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img src="assets/img/svg/java-logo-png-transparent.svg">
+              </div>
+              <div class="stack__list--item-name">
+                <span>Java</span>
+              </div>
+            </li>
+
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img src="assets/img/svg/icons8-c-sharp-logo-2.svg">
+              </div>
+              <div class="stack__list--item-name">
+                <span>C#</span>
+              </div>
+            </li>
+
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img src="assets/img/svg/icons8-html-5.svg">
+              </div>
+              <div class="stack__list--item-name">
+                <span>HTML 5</span>
+              </div>
+            </li>
+
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img style="height: 90%; width: 90%;" src="assets/img/svg/icons8-css3.svg">
+              </div>
+              <div class="stack__list--item-name">
+                <span>CSS</span>
+              </div>
+            </li>
+
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img src="assets/img/Black-Github-Logo-PNG-Image-Background.svg" alt="github">
+              </div>
+              <div class="stack__list--item-name">
+                <span>C</span>
+              </div>
+            </li>
+
+            <li class="stack__list--item">
+              <div class="stack__list--item-icon">
+                <img src="assets/img/svg/icons8-git.svg">
+              <div class="stack__list--item-name">
+                <span>Git</span>
+              </div>
+            </li>
+          </ul>
+        </main>
+      </section>
+
 
 	<section class="theme-light section-selector-2">
 
 		<div class="col-1 text-center w-820px">
-			<h2>Recent projects</h2>
+			<h2 style="color: var(--gray-400);">Recent projects</h2>
 			<h3>Below you can see some examples of my recent work. Check out my <a href="complete-portfolio.html">complete portfolio</a>. Have a project you would like to discuss? Let's make something great together!</h3>
 		</div>
 
@@ -189,3 +245,4 @@
 
 </body>
 </html>
+
